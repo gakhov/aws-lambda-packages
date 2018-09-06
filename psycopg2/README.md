@@ -1,4 +1,4 @@
-# psycopg2-builds
+# psycopg2 AWS builds
 Precompiled builds for psycopg2 for different Python versions and OS
 
 Amazon Lambda and some other "closed" systems requires to provide already built versions for custom Python packages.
@@ -28,7 +28,7 @@ This repository contains:
 Just copy the required version and rename it to `psycopg`, e.g.
 
 ```
-svn export --force https://github.com/gakhov/psycopg2-builds/trunk/psycopg2-2.7.5-py2.7-amzn1_64/ {my_folder}/psycopg2
+svn export --force https://github.com/gakhov/aws-lambda-packages/trunk/psycopg2/psycopg2-2.7.5-py2.7-amzn1_64/ {my_folder}/psycopg2
 ```
 
 P.S. Yes, `svn`. It can help you to avoid downloading the whole repo, instead of one requried folder.
